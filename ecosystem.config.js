@@ -13,6 +13,7 @@ module.exports = {
       env_production: {
         NODE_ENV: 'production',
         API_DATABASE_URL: process.env.API_DATABASE_URL,
+        API_SHADOW_DATABASE_URL: process.env.API_SHADOW_DATABASE_URL,
         API_JWT_SECRET: process.env.API_JWT_SECRET,
         API_USER_ID: process.env.API_USER_ID,
         API_USER_PASS: process.env.API_USER_PASS,
