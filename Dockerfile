@@ -11,4 +11,4 @@ RUN yarn install --cwd ./server
 COPY . .
 
 EXPOSE 8080
-CMD yarn build:server && yarn start:server
+CMD yarn generate:server && yarn build:server && yarn start:server
